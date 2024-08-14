@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """
 Script that queries subscribers on a given Reddit subreddit.
 """
@@ -16,4 +17,4 @@ def number_of_subscribers(subreddit):
         subscribers = data['data']['subscribers']
         return subscribers
     else:
-        return 0;
+        return 0
